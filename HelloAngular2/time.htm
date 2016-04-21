@@ -54,15 +54,14 @@
     <script type="text/javascript">
 
         var $input = $( '.datepicker' ).pickatime({
+
+            format: 'HH:i',
+            interval: 60,
+            closeOnClear: false,
+            closeOnSelect: true,
+            clear: '关闭',
         })
-        var picker = $input.pickatime('picker')
-        picker.interval=60
-    /*    $('.datepicker').pickatime({
-            formatSubmit: 'HH:i',
-            interval: 150,
-            hiddenName: true
-        })*/
-        picker.open()
+
 
 
     </script>
