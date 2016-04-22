@@ -109,8 +109,8 @@
  * more than what’s here. Style the `.picker__holder` instead.
  */
 .picker--time {
-  min-width: 256px;
-  max-width: 320px;
+  min-width: 156px;
+  max-width: 200px;
 }
 /**
  * The holder is the base of the picker.

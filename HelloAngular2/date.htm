@@ -10,9 +10,9 @@
 
 <title>Pickadate.js</title>
 
-<link rel="stylesheet" href="lib/themes/default.css">
-<link rel="stylesheet" href="lib/themes/default.date.css">
-<link rel="stylesheet" href="lib/themes/default.time.css">
+<link rel="stylesheet" href="lib/themes/classic.css">
+<link rel="stylesheet" href="lib/themes/classic.date.css">
+<link rel="stylesheet" href="lib/themes/classic.time.css">
 <!--[if lt IE 9]>
     <script>document.createElement('section')</script>
     <style type="text/css">
@@ -89,7 +89,7 @@
             // min: [2015, 7, 14],
             container: '#container',
             // editable: true,
-            closeOnSelect: false,
+            closeOnSelect: true,
             closeOnClear: false,
             selectMonths: true,
             // Buttons
@@ -103,7 +103,6 @@
          })
 
         var $input = $( '.timepicker' ).pickatime({
-
             format: 'HH:i',
             interval: 60,
             closeOnSelect: true,
